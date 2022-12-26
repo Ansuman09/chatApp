@@ -1,0 +1,225 @@
+/*----------------header.js----------------*/
+.header-container{
+    padding: 50px;
+    color: blanchedalmond;
+    text-align:right;
+    background-color:  rgb(249, 130, 62);
+}
+
+
+.login-logout{
+    /* text-decoration: none; */
+    text-decoration:none;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+/*-------------home.js--------------*/
+body{
+    background-color:#F2E5E5;
+}
+
+.base-container{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    background-color:#F2E5E5;
+}
+
+.post-container{
+    background-color:#432C7A;
+}
+
+.topics-container{
+    width: 100%;
+    padding: 0;
+}
+
+.topic-container{
+    display: grid;
+    background-color: #432C7A;
+    color: #F2E5E5;
+    justify-content: center;
+    width: 250px;
+    border: solid;
+    border-color: #F2E5E5;
+    border-radius: 4%;
+}
+
+.topic-container:hover{
+    color:rgb(221, 140, 65);
+}
+.headline-container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: #432C7A;
+    color: #F2E5E5;
+    align-items: center;
+    border: solid;
+    border-color: #F2E5E5;
+    padding-left:8px ;
+}
+
+.title-header{
+    text-decoration:none;
+    color:#F2E5E5;
+}
+
+.title-header:hover{
+    color:rgb(221, 140, 65);
+}
+
+/* .messages-display{
+    text-align: center; */
+/* } */
+.messages-container{
+    align-items: center;
+    font-family: cursive;
+
+}
+.message-container{
+    display: grid;
+    background-color: #FF8FB1;
+    color: black;
+    justify-content: left;
+    width: 800px;
+    padding: 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+
+.edit-btn{
+    background-color:#432C7A;
+    width: 70px;
+    height: 50px;
+    color:#F2E5E5;
+    font-size: 1.5rem;
+}
+
+.edit-btn:hover{
+    background-color:#F2E5E5;
+    color: #432C7A;    
+    cursor: pointer;
+}
+
+.back-btn{
+    background-color: rgb(146, 207, 54);
+}
+
+
+#plus-icon{
+    text-decoration: none;
+    color:#432C7A;
+    font-size: 2.6rem;
+    padding-left: 5px;
+    
+}
+
+
+
+/*--------------podt.js---------------*/
+.message-user{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: #80489C;
+    margin-bottom: 0px;
+}
+
+.message-submit{
+    text-align: center;
+}
+.messages-textbox{
+    width: 700px;
+}
+
+.newpost-headline{
+    background-color: #432C7A;
+    color: #F2E5E5;
+    padding: 50px;
+}
+
+/*------------------login.js---------------*/
+.login-form{
+    margin-top: 15%;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.login-contanier{
+    background-color: rgb(124, 58, 17);
+    padding: 5%;
+    margin: 0 auto 0;
+    max-width: fit-content;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.login-btn{
+    background-color: rgb(16, 222, 16);
+    color: antiquewhite;
+    font-size: 1.25rem;    
+    height: 2rem;
+
+}
+
+.login-btn:hover{
+    color: rgb(16, 222, 16);
+    background-color: antiquewhite;
+    cursor:pointer;
+}
+
+.login-box{
+    height: 1.5rem;
+}
+
+
+.logout-final{
+    background-color: red;
+    color: antiquewhite;
+    padding: 2px;
+    width: 200px;
+    margin: 0 auto 0;
+}
+
+.logout-final:hover{
+    background-color: #F2E5E5;
+    color: red;
+    
+}
+/*-----------------------NEwPOST---------------*/
+.postform-container{
+    color: #F2E5E5;
+    background-color: #432C7A;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto 0;
+    border-radius: 3px;
+    justify-content: center;
+
+}
+
+.newpost-btn{
+    background-color: #FF8FB1;
+    width: 120px;
+    height: 50px;
+    margin: 5px auto 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+/*================USer.js================*/
+
+.user-container{
+    background-color: #432C7A;
+    color: #F2E5E5;
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+}
