@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div id="login-signup">
+    <form method="POST" id='signup-form' action="">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" name="createUser"/>
+    </form>
+    <button id="login" type="submit"> LOGIn </button>
+</div>
+
+<div>
+    <form id="join-form">
+        <input type="submit" value="join"/>
+    </form>
+</div>
+
+<script type="text/javascript">
+    let form= document.getElementById('join-form')
+    
+    const handleClick=async(e)=>{
+        e.preventDefault()
+        console.log('works')
+        await window.open('http://localhost:3000/','_self')
+    }
+    form.addEventListener('submit',handleClick)
+    
+</script>
+
+
+
+{% endblock %}

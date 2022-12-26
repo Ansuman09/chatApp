@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div>
+    <form id="join-form">
+        <input type="submit" value="join"/>
+    </form>
+</div>
+
+<script type="text/javascript">
+    let form= document.getElementById('join-form')
+    
+    const handleClick=async(e)=>{
+        e.preventDefault()
+        console.log('works')
+        await window.open('http://localhost:3000/','_self')
+    }
+    form.addEventListener('submit',handleClick)
+    
+</script>
+{% endblock %}
