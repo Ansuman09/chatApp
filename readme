@@ -1,1 +1,3 @@
 The chatApp folder's contents and the base contents belong in a django project. They form the backend of the website
+django project|--base
+              |--chatApp
